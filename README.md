@@ -21,7 +21,7 @@ Substitution of systime () function
 	For example, if you are calling from busybox pawk, substitute it like this.  
   
   ```awk
-  cmd = "busybox.exe date +%s"
+  cmd = "busybox.exe date +%s";
 	while(cmd | getline Seed){
 	  break;
 	}

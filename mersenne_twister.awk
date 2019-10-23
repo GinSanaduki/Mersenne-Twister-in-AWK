@@ -193,7 +193,6 @@ function random(){
 			# divided by 2^32-1
 			F8 = 2Power32 - 1;
 			return retVal / F8;
-  /* divided by 2^32-1 */ 
 		} else {
 			# generates a random number on (0,1)-real-interval
 			retVal = retVal + 0.5;

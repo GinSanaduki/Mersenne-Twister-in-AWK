@@ -26,10 +26,12 @@ About bit operations
 	* チェック機構までは保証しているわけではないので、そのあたりを突き詰めていると時間ばかりかかって仕方がなかったり、
     そのほかのビットシフトなど、アルゴリズムを書くのがしんどい方は、
     bourne shellのletや算術式を「sh -c」でsystem関数で呼んで評価させる手もあります。
+    	* 当然ながら、何回もこんなコールをする処理では、当然実行速度には難があるでしょう。
 
 	* For the logical product, logical sum, and exclusive logical sum, refer to the implementation listed in the following link.
 	* The check mechanism is not guaranteed, so if you try to find it, it will take time and you can't help it.
 	* If it is difficult to write an algorithm such as bit shift, there is also a way to call let and arithmetic expression of bourne shell by "sh -c" with system function and evaluate it.
+	* Of course, in the process of making such a call many times, naturally the execution speed will be difficult.
 
 	* 時間城年代記:mawkのためのビット演算関数  
 	http://blog.livedoor.jp/kikwai/archives/52263266.html

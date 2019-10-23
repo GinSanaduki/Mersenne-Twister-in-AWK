@@ -313,7 +313,7 @@ function opsNextInt(){
 		spadework_05_Quotient = retVal % supOpsNextInt;
 		spadework_06 = retVal - spadework_05_Quotient;
 		spadework_07 = 2Power32 - spadework_06;
-	} while (supOpsNextInt > spadework_07);
+	} while (supOpsNextInt > spadework_07)
 	
 	return retVal + minOpsNextInt;
 }

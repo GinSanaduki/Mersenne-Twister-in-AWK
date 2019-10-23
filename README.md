@@ -52,16 +52,18 @@ About bit operations
 # Usage
 
 ```bash
-/usr/bin/gawk [-M] -f mersenne_twister.awk -v Mode=[next/nextInt] [-v OSBit=[32/64]] [-v Seed=[[:digit:]].*] [-v Min=[[:digit:]].*] [-v Sup=[[:digit:]].*] [-v DecPoint=[[:digit:]].*] [-v SubMode=[int32/int31/real1/real3]]
+/usr/bin/gawk [-M] -f mersenne_twister.awk -v [Mode=[next/nextInt]] [-v OSBit=[32/64]] [-v Seed=[[:digit:]].*] [-v Min=[[:digit:]].*] [-v Sup=[[:digit:]].*] [-v DecPoint=[[:digit:]].*] [-v SubMode=[int32/int31/real1/real3]]
 ```
 
 1. Mode
-* 必須です。  
+* 任意です。  
 * nextかnextIntを指定してください。  
+指定のない場合、nextかnextInt以外を指定した場合は、nextを指定したものとみなします。  
 next : 0 以上 1 未満の一様分布乱数を1つ返します。  
 nextInt : Min以上Sup未満の整数の乱数を1つ返します。  
-* Required.
+* Optional.  
 * Specify next or nextInt.  
+If there is no specification, and if something other than next or nextInt is specified, it is considered that next has been specified.  
 next: Returns one uniformly distributed random number between 0 and 1.  
 nextInt: Returns an integer random number between Min and Sup.  
 

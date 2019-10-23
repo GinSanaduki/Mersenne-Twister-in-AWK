@@ -18,7 +18,7 @@ Substitution of systime () function
 	There is a method of using the unix time output result of the date command.  
 	For example, if you are calling from busybox pawk, substitute it like this.  
   
-  ```
+  ```awk
   cmd = "busybox.exe date +%s"
 	while(cmd | getline Seed){
 	  break;
@@ -45,4 +45,11 @@ About bit operations
 
 	* awk と bit 演算（平林浩一）  
 	http://www.mogami.com/unix/awk-02.html
+
+# 使い方
+# Usage
+
+```bash
+/usr/bin/gawk -f mersenne_twister.awk -v Mode=[next/nextInt] [-v OSBit=[32/64]] [-v Seed=[[:digit:]].*] [-v Min=[[:digit:]].*] [-v Sup=[[:digit:]].*] [-v DecPoint=[[:digit:]].*] [-v SubMode=[int32/int31/real1/real3]]
+```
 

@@ -85,9 +85,9 @@ function varInit(){
 
 function checkArgs(){
 	# Check "Mode" in the argument.
+	# If "nextInt" is not specified in the argument, it is assumed to be specified "next".
 	if(Mode != "next" && Mode != "nextInt"){
-		print "Invalid Argument. : Mode";
-		exit 99;
+		Mode = "next";
 	}
 	# Check "OSBit" in the argument.
 	# If "64" is not specified in the argument, it is assumed to be specified "32".

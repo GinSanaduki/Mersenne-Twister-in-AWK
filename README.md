@@ -31,9 +31,9 @@ About bit operations
 	* The check mechanism is not guaranteed, so if you try to find it, it will take time and you can't help it.
 	* If it is difficult to write an algorithm such as bit shift, there is also a way to call let and arithmetic expression of bourne shell by "sh -c" with system function and evaluate it.
 
-	時間城年代記:mawkのためのビット演算関数
+	* 時間城年代記:mawkのためのビット演算関数  
 	http://blog.livedoor.jp/kikwai/archives/52263266.html
 
-	awk と bit 演算（平林浩一）
+	* awk と bit 演算（平林浩一）  
 	http://www.mogami.com/unix/awk-02.html
 

@@ -1,6 +1,13 @@
 # Mersenne-Twister-in-AWK
 a Mersenne Twister implementation in awk.
 
+* 意外にも、疑似乱数生成器を得意とするはずのArnold Robbinsが実装していなかったようなので、用意しました。
+* 2007年にその話が出てから、12年が経過していたわけですが・・・。
+
+* Surprisingly, Arnold Robbins, who should be good at pseudo-random number generators, did not seem to implement it.
+* Twelve years have passed since the story came out in 2007 ...
+
+
 # gawkと他awkの相互互換のための説明
 ## Description for the mutual compatibility of gawk and other awk
 1. systime()関数の代用について  

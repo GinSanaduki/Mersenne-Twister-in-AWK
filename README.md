@@ -52,7 +52,7 @@ About bit operations
 # Usage
 
 ```bash
-/usr/bin/gawk -M -f mersenne_twister.awk -v Mode=[next/nextInt] [-v OSBit=[32/64]] [-v Seed=[[:digit:]].*] [-v Min=[[:digit:]].*] [-v Sup=[[:digit:]].*] [-v DecPoint=[[:digit:]].*] [-v SubMode=[int32/int31/real1/real3]]
+/usr/bin/gawk [-M] -f mersenne_twister.awk -v Mode=[next/nextInt] [-v OSBit=[32/64]] [-v Seed=[[:digit:]].*] [-v Min=[[:digit:]].*] [-v Sup=[[:digit:]].*] [-v DecPoint=[[:digit:]].*] [-v SubMode=[int32/int31/real1/real3]]
 ```
 
 1. Mode

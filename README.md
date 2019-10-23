@@ -3,6 +3,8 @@ a Mersenne Twister implementation in awk.
 
 * 意外にも、疑似乱数生成器を得意とするはずのArnold Robbinsが実装していなかったようなので、用意しました。
 * 2007年にその話が出てから、12年が経過していたわけですが・・・。
+https://rocco.hatenadiary.org/entry/20071126/p1
+アルゴリズムと LL (てか awk) - 日本 GNU AWK ユーザー会 0.2
 
 * Surprisingly, Arnold Robbins, who should be good at pseudo-random number generators, did not seem to implement it.
 * Twelve years have passed since the story came out in 2007 ...

@@ -53,3 +53,14 @@ About bit operations
 /usr/bin/gawk -f mersenne_twister.awk -v Mode=[next/nextInt] [-v OSBit=[32/64]] [-v Seed=[[:digit:]].*] [-v Min=[[:digit:]].*] [-v Sup=[[:digit:]].*] [-v DecPoint=[[:digit:]].*] [-v SubMode=[int32/int31/real1/real3]]
 ```
 
+1. Mode
+* 必須です。  
+* nextかnextIntを指定してください。  
+next : 0 以上 1 未満の一様分布乱数を1つ返します。  
+nextInt : Min以上Sup未満の整数の乱数を1つ返します。  
+* Required.
+* Specify next or nextInt.  
+next: Returns one uniformly distributed random number between 0 and 1.  
+nextInt: Returns an integer random number between Min and Sup.  
+
+

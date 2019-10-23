@@ -15,7 +15,7 @@ https://rocco.hatenadiary.org/entry/20071126/p1
 1. systime()関数の代用について  
 Substitution of systime () function
 
-	* dateコマンドのunix時刻の出力結果を使用する方法があります。  
+	* dateコマンドのUNIX時刻の出力結果を使用する方法があります。  
 	例えば、busyboxのpawkから呼ぶなら、以下のように代用してください。  
 	There is a method of using the unix time output result of the date command.  
 	For example, if you are calling from busybox pawk, substitute it like this.  
@@ -52,7 +52,7 @@ About bit operations
 # Usage
 
 ```bash
-/usr/bin/gawk -f mersenne_twister.awk -v Mode=[next/nextInt] [-v OSBit=[32/64]] [-v Seed=[[:digit:]].*] [-v Min=[[:digit:]].*] [-v Sup=[[:digit:]].*] [-v DecPoint=[[:digit:]].*] [-v SubMode=[int32/int31/real1/real3]]
+/usr/bin/gawk -M -f mersenne_twister.awk -v Mode=[next/nextInt] [-v OSBit=[32/64]] [-v Seed=[[:digit:]].*] [-v Min=[[:digit:]].*] [-v Sup=[[:digit:]].*] [-v DecPoint=[[:digit:]].*] [-v SubMode=[int32/int31/real1/real3]]
 ```
 
 1. Mode

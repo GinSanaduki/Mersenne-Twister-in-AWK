@@ -1,5 +1,5 @@
 # Mersenne-Twister-in-AWK
-a Mersenne Twister implementation in awk.
+a Mersenne Twister(MT19937, MT19937-64) implementation in awk.
 
 * 意外にも、疑似乱数生成器を得意とするはずのArnold Robbinsが実装していなかったようなので、用意しました。
 * 2007年にその話が出てから、12年が経過していたわけですが・・・。

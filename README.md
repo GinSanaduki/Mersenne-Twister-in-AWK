@@ -1,3 +1,7 @@
+<p align="center">
+    <a href="https://opensource.org/licenses/BSD-3-Clause"><img src="https://img.shields.io/badge/license-bsd-orange.svg" alt="Licenses"></a>
+</p>
+
 # Mersenne-Twister-in-AWK
 a Mersenne Twister(MT19937, MT19937-64) implementation in awk.
 
